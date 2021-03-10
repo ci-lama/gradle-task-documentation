@@ -3,7 +3,6 @@ package cilama.annotations
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)
 @MustBeDocumented
-annotation class DocTaskDescription(
-        val purpose: String,
-        val name: String
+annotation class DocTemplate(
+    val resourceLocation: String
 )
